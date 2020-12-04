@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Game | flappy Bird</title>
+</head>
+<body>
+    <h1 class="naoSelecionavel"><simple id="s">Flappy</simple><game id="g"> Bird</game></h1>
+    <canvas id="game-canvas" width="320" height="480"></canvas>
+    <h5 class="ath">Game Made By <a  id="ath" href="https://t.me/Code_Cobe/">@Cobe</a></h5>
+
+    <style>
+        body {
+          text-align: center;
+          background-color: #3bb8e6af;
+          min-height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+        canvas {
+          border: 2px solid white;
+          display: block;
+          border-radius: 20px;
+          margin: 0 auto;
+          box-shadow: 10px 11px 17px black;
+        }
+        h5 {  color: white;   font-family: Arial, Helvetica, sans-serif; } a { color: rgb(255, 218, 8); text-decoration: none; font-family: Arial, Helvetica, sans-serif; cursor: po; }
+        #g {
+
+          color: gold;
+        }
+        .ath {
+          
+          color: white;
+          font-family: Arial;
+          text-shadow: 1px 3px 7px #00000079;
+          -webkit-touch-callout: none;  /* iPhone OS, Safari */
+          -webkit-user-select: none;    /* Chrome, Safari 3 */
+          -khtml-user-select: none;     /* Safari 2 */
+          -moz-user-select: none;       /* Firefox */
+          -ms-user-select: none;        /* IE10+ */
+          user-select: none;            /* Possível implementação no futuro */}
+
+        .naoSelecionavel {
+          color: white;
+          font-family: Arial;
+          text-shadow: 1px 3px 7px rgba(0, 0, 0, 0.474);
+          -webkit-touch-callout: none;  /* iPhone OS, Safari */
+          -webkit-user-select: none;    /* Chrome, Safari 3 */
+          -khtml-user-select: none;     /* Safari 2 */
+          -moz-user-select: none;       /* Firefox */
+          -ms-user-select: none;        /* IE10+ */
+          user-select: none;            /* Possível implementação no futuro */}
+    </style>
+
+    <script src="./jogo.js"></script>
+</body>
+</html>
